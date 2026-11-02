@@ -3,61 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sanjana Chauhan | Futuristic 3D Developer Experience</title>
-  <meta name="description" content="Immersive 3D portfolio of Sanjana Chauhan - Aspiring Software Developer specialized in C++, Python, Web Architectures, and AI-assisted engineering.">
+  <title>Sanjana Chauhan | 3D Project Universe & Developer Portfolio</title>
+  <meta name="description" content="Cinematic 3D Developer Portfolio of Sanjana Chauhan - Aspiring Software Developer specialized in C++, Python, Web Architectures, and AI-assisted systems.">
   
-  <!-- Premium Futuristic Typography -->
+  <!-- Premium Fonts: Outfit (Display & Headings), Space Grotesk (Geometry & Tech), JetBrains Mono (Code & Telemetry) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- 3D Perspective Ambient Background Layer -->
-  <div class="world-container">
-    <div class="cyber-grid"></div>
-    <div class="ambient-aurora aurora-1"></div>
-    <div class="ambient-aurora aurora-2"></div>
-    <div class="ambient-aurora aurora-3"></div>
-    <div class="floating-particle particle-1"></div>
-    <div class="floating-particle particle-2"></div>
-    <div class="floating-particle particle-3"></div>
-    <div class="floating-particle particle-4"></div>
+  <!-- ====================================================================
+       00. PURE CSS 3D LOADING SCREEN (Auto-Dismisses via CSS Keyframes)
+       ==================================================================== -->
+  <div class="intro-loader" aria-hidden="true">
+    <div class="loader-content-3d">
+      <div class="loader-cube-wrap">
+        <div class="loader-cube">
+          <div class="lc-face lc-front">SC</div>
+          <div class="lc-face lc-back">DEV</div>
+          <div class="lc-face lc-right">3D</div>
+          <div class="lc-face lc-left">C++</div>
+          <div class="lc-face lc-top">PY</div>
+          <div class="lc-face lc-bottom">AI</div>
+        </div>
+      </div>
+      <div class="loader-meta">
+        <span class="loader-status">INITIALIZING 3D PROJECT UNIVERSE</span>
+        <div class="loader-track">
+          <div class="loader-fill"></div>
+        </div>
+        <span class="loader-coords">SPATIAL PERSPECTIVE // CALIBRATING DEPTH</span>
+      </div>
+    </div>
   </div>
 
-  <!-- Futuristic Glass Header -->
+  <!-- ====================================================================
+       3D AMBIENT WORLD: Perspective Cyber-Grid, Deep Auroras, Grain Sheen
+       ==================================================================== -->
+  <div class="spatial-universe-backdrop">
+    <div class="grain-overlay"></div>
+    <div class="spatial-grid-floor"></div>
+    <div class="ambient-glow glow-primary"></div>
+    <div class="ambient-glow glow-secondary"></div>
+    <div class="ambient-glow glow-tertiary"></div>
+    
+    <!-- Floating Spatial Dust Particles (Pure CSS) -->
+    <div class="spatial-particle p-1"></div>
+    <div class="spatial-particle p-2"></div>
+    <div class="spatial-particle p-3"></div>
+    <div class="spatial-particle p-4"></div>
+    <div class="spatial-particle p-5"></div>
+  </div>
+
+  <!-- ====================================================================
+       FUTURISTIC 3D HEADER
+       ==================================================================== -->
   <header class="header">
     <div class="container nav-container">
       
+      <!-- Brand Logo with 3D Flip Cube -->
       <a href="#hero" class="brand-logo" aria-label="Sanjana Chauhan Homepage">
-        <div class="logo-box-3d">
-          <div class="logo-face front">SC</div>
-          <div class="logo-face back">DEV</div>
+        <div class="logo-cube-3d">
+          <div class="cube-face-logo front">SC</div>
+          <div class="cube-face-logo back">DEV</div>
         </div>
         <div class="logo-meta">
-          <span class="logo-title">SANJANA<span class="neon-dot">.</span>CHAUHAN</span>
-          <span class="logo-subtitle">SYSTEMS &bull; WEB &bull; AI</span>
+          <span class="logo-title">SANJANA<span class="cyan-accent">.</span>CHAUHAN</span>
+          <span class="logo-tagline">3D UNIVERSE &bull; C++ &bull; PYTHON</span>
         </div>
       </a>
 
       <!-- Pure CSS Mobile Hamburger Toggle -->
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle Navigation">
       <label for="nav-toggle" class="nav-hamburger">
-        <span class="line line-1"></span>
-        <span class="line line-2"></span>
-        <span class="line line-3"></span>
+        <span class="bar bar-1"></span>
+        <span class="bar bar-2"></span>
+        <span class="bar bar-3"></span>
       </label>
 
+      <!-- Navigation Links -->
       <nav class="nav-links">
-        <a href="#hero" class="nav-link"><span class="nav-idx">01</span> Overview</a>
-        <a href="#about" class="nav-link"><span class="nav-idx">02</span> About &amp; Vision</a>
-        <a href="#skills" class="nav-link"><span class="nav-idx">03</span> Tech Deck</a>
-        <a href="#projects" class="nav-link"><span class="nav-idx">04</span> Projects 3D</a>
-        <a href="#mindset" class="nav-link"><span class="nav-idx">05</span> Mindset</a>
-        <a href="#contact" class="nav-cta-btn btn-3d">
-          <span class="btn-core">Initialize Contact</span>
+        <a href="#hero" class="nav-link"><span class="nav-num">01</span> Universe</a>
+        <a href="#about" class="nav-link"><span class="nav-num">02</span> About</a>
+        <a href="#gallery3d" class="nav-link"><span class="nav-num">03</span> 3D Gallery</a>
+        <a href="#skills" class="nav-link"><span class="nav-num">04</span> Tech Deck</a>
+        <a href="#projects" class="nav-link"><span class="nav-num">05</span> Systems</a>
+        <a href="#mindset" class="nav-link"><span class="nav-num">06</span> Mindset</a>
+        <a href="#contact" class="nav-btn-3d btn-tactile">
+          <span class="btn-face">Initialize Contact</span>
         </a>
       </nav>
 
@@ -66,147 +102,147 @@
 
   <main>
     <!-- ====================================================================
-         HERO SECTION: 3D Holographic Reactor & Vision
+         01. CINEMATIC 3D HERO: Spatial Typography & Pure CSS Holographic Gyro
          ==================================================================== -->
     <section id="hero" class="hero-section">
       <div class="container hero-layout">
         
-        <!-- Left: Futuristic Headline & Narrative -->
-        <div class="hero-text-block">
+        <!-- Left: Cinematic Headline & Mission -->
+        <div class="hero-intro-column">
           
-          <div class="system-status-pill">
-            <span class="status-beacon"></span>
-            <span class="status-code">SYS_ONLINE // ASPIRING SOFTWARE DEVELOPER</span>
+          <div class="telemetry-badge">
+            <span class="pulsing-beacon"></span>
+            <span class="telemetry-code">SYS_STATUS // ONLINE &bull; ASPIRING SOFTWARE DEVELOPER</span>
           </div>
 
-          <h1 class="hero-headline">
-            Engineering Code Into <br>
-            <span class="text-gradient-neon">Intelligent Reality</span>
+          <h1 class="hero-headline-3d">
+            Architecting Logic Into <br>
+            <span class="gradient-cinematic">Spatial Reality</span>
           </h1>
 
-          <p class="hero-lead">
-            I am <strong class="text-white">Sanjana Chauhan</strong>, an aspiring software engineer anchored by deep curiosity and problem-solving rigor. Cultivating strong logic in <span class="tag-glow-blue">C++</span> &amp; <span class="tag-glow-amber">Python</span>, architecting responsive web backends, and building real-time solutions with <span class="tag-glow-cyan">Supabase</span> and <span class="tag-glow-pink">Lovable</span>.
+          <p class="hero-lead-text">
+            I am <strong class="text-contrast">Sanjana Chauhan</strong>, an aspiring software developer driven by natural curiosity, logical rigor, and continuous learning. Laying strong programming foundations in <span class="tag-chip chip-blue">C++</span> &amp; <span class="tag-chip chip-amber">Python</span>, mastering web backend systems, and engineering real-time monitoring solutions with <span class="tag-chip chip-cyan">Supabase</span> and <span class="tag-chip chip-purple">Lovable</span>.
           </p>
 
-          <div class="hero-actions">
-            <a href="#projects" class="btn-neon-primary btn-3d">
-              <span class="btn-core">
-                <span>Explore 3D Projects</span>
+          <div class="hero-cta-cluster">
+            <a href="#gallery3d" class="btn-3d-primary btn-tactile">
+              <span class="btn-face">
+                <span>Enter 3D Universe</span>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </span>
             </a>
             
-            <a href="#about" class="btn-neon-outline btn-3d">
-              <span class="btn-core">
+            <a href="#about" class="btn-3d-secondary btn-tactile">
+              <span class="btn-face">
                 <span>Discover Journey</span>
               </span>
             </a>
           </div>
 
-          <!-- 3D Dimensional Stat Highlights -->
-          <div class="hero-metrics-grid">
-            <div class="metric-card-3d">
-              <span class="metric-accent">01</span>
-              <div class="metric-body">
-                <span class="metric-value">C++ &bull; Python</span>
-                <span class="metric-label">Logic &amp; Algorithmic Core</span>
+          <!-- 3D Spatial Metrics Row -->
+          <div class="hero-metrics-deck">
+            <div class="metric-block-3d">
+              <span class="metric-index">01</span>
+              <div class="metric-content">
+                <span class="metric-header">C++ &bull; Python</span>
+                <span class="metric-detail">Algorithms &amp; Logic Core</span>
               </div>
             </div>
             
-            <div class="metric-card-3d">
-              <span class="metric-accent">02</span>
-              <div class="metric-body">
-                <span class="metric-value">Real-Time Monitor</span>
-                <span class="metric-label">Lovable + Supabase System</span>
+            <div class="metric-block-3d">
+              <span class="metric-index">02</span>
+              <div class="metric-content">
+                <span class="metric-header">Website Monitor</span>
+                <span class="metric-detail">Lovable + Supabase Stack</span>
               </div>
             </div>
             
-            <div class="metric-card-3d">
-              <span class="metric-accent">03</span>
-              <div class="metric-body">
-                <span class="metric-value">Lifelong Learner</span>
-                <span class="metric-label">Curiosity, Books &amp; Growth</span>
+            <div class="metric-block-3d">
+              <span class="metric-index">03</span>
+              <div class="metric-content">
+                <span class="metric-header">Continuous Growth</span>
+                <span class="metric-detail">Books, Curiosity &amp; Ideas</span>
               </div>
             </div>
           </div>
 
         </div>
 
-        <!-- Right: 100% Pure CSS 3D Holographic Gyroscope Reactor -->
-        <div class="hero-stage-3d">
-          <div class="gyro-scene-3d">
+        <!-- Right: Pure CSS 3D Holographic Gyroscope Reactor & Mini Floating Cards -->
+        <div class="hero-visual-column">
+          <div class="hero-spatial-scene">
             
-            <!-- Atmospheric Base Pedestal -->
-            <div class="pedestal-glow"></div>
+            <!-- Perspective Pedestal Shadow -->
+            <div class="spatial-pedestal-shadow"></div>
             
-            <!-- Gyroscope Hologram Structure -->
-            <div class="gyro-chassis">
+            <!-- Central Pure CSS 3D Gyroscope Reactor -->
+            <div class="hologram-chassis-3d" title="Pure CSS 3D Gyroscope - Hover to Pause & Tilt">
               
-              <!-- Outer Ring (Yaw) -->
-              <div class="gyro-ring ring-alpha">
-                <span class="ring-node node-a1"></span>
-                <span class="ring-node node-a2"></span>
-              </div>
-              
-              <!-- Middle Ring (Pitch) -->
-              <div class="gyro-ring ring-beta">
-                <span class="ring-node node-b1"></span>
-                <span class="ring-node node-b2"></span>
+              <!-- Outer Ring Alpha (Yaw) -->
+              <div class="gyro-gimbal gimbal-alpha">
+                <span class="gimbal-beacon beacon-a1"></span>
+                <span class="gimbal-beacon beacon-a2"></span>
               </div>
               
-              <!-- Inner Ring (Roll) -->
-              <div class="gyro-ring ring-gamma">
-                <span class="ring-node node-c1"></span>
-                <span class="ring-node node-c2"></span>
+              <!-- Middle Ring Beta (Pitch) -->
+              <div class="gyro-gimbal gimbal-beta">
+                <span class="gimbal-beacon beacon-b1"></span>
+                <span class="gimbal-beacon beacon-b2"></span>
+              </div>
+              
+              <!-- Inner Ring Gamma (Roll) -->
+              <div class="gyro-gimbal gimbal-gamma">
+                <span class="gimbal-beacon beacon-c1"></span>
+                <span class="gimbal-beacon beacon-c2"></span>
               </div>
 
-              <!-- Central 3D Floating Hyper-Cube -->
-              <div class="hypercube-core">
-                <div class="cube-side cube-front"><span>C++</span></div>
-                <div class="cube-side cube-back"><span>PY</span></div>
-                <div class="cube-side cube-right"><span>AI</span></div>
-                <div class="cube-side cube-left"><span>WEB</span></div>
-                <div class="cube-side cube-top"><span>DB</span></div>
-                <div class="cube-side cube-bottom"><span>DEV</span></div>
+              <!-- Central 3D Polyhedral Cube -->
+              <div class="core-hypercube">
+                <div class="cube-facet facet-front"><span>C++</span></div>
+                <div class="cube-facet facet-back"><span>PY</span></div>
+                <div class="cube-facet facet-right"><span>AI</span></div>
+                <div class="cube-facet facet-left"><span>WEB</span></div>
+                <div class="cube-facet facet-top"><span>DB</span></div>
+                <div class="cube-facet facet-bottom"><span>DEV</span></div>
               </div>
 
-              <!-- Energy Core Glow -->
-              <div class="core-plasma"></div>
+              <!-- Plasma Glow Sphere -->
+              <div class="core-plasma-orb"></div>
             </div>
 
-            <!-- Orbiting 3D Holographic Satellites -->
-            <div class="satellite-orbit orbit-1">
-              <div class="satellite-pill sat-cpp">
-                <span class="sat-icon">⚡</span>
-                <span class="sat-text">C++ Logic</span>
-              </div>
-            </div>
-
-            <div class="satellite-orbit orbit-2">
-              <div class="satellite-pill sat-py">
-                <span class="sat-icon">🐍</span>
-                <span class="sat-text">Python Engine</span>
-              </div>
-            </div>
-
-            <div class="satellite-orbit orbit-3">
-              <div class="satellite-pill sat-sb">
-                <span class="sat-icon">🚀</span>
-                <span class="sat-text">Supabase DB</span>
+            <!-- Orbiting 3D Miniature Interface Cards (Satellites) -->
+            <div class="orbit-plane orbit-level-1">
+              <div class="mini-card-sat sat-cpp">
+                <span class="sat-badge">⚡</span>
+                <span class="sat-name">C++ Logic</span>
               </div>
             </div>
 
-            <div class="satellite-orbit orbit-4">
-              <div class="satellite-pill sat-lv">
-                <span class="sat-icon">💖</span>
-                <span class="sat-text">Lovable AI</span>
+            <div class="orbit-plane orbit-level-2">
+              <div class="mini-card-sat sat-py">
+                <span class="sat-badge">🐍</span>
+                <span class="sat-name">Python Engine</span>
               </div>
             </div>
 
-            <!-- 3D Touch Interaction Prompt -->
-            <div class="touch-interactive-hint">
-              <span class="hint-flare"></span>
-              <span class="hint-text">3D Dynamic Matrix // Hover &amp; Press Elements</span>
+            <div class="orbit-plane orbit-level-3">
+              <div class="mini-card-sat sat-sb">
+                <span class="sat-badge">🚀</span>
+                <span class="sat-name">Supabase DB</span>
+              </div>
+            </div>
+
+            <div class="orbit-plane orbit-level-4">
+              <div class="mini-card-sat sat-lv">
+                <span class="sat-badge">💖</span>
+                <span class="sat-name">Lovable AI</span>
+              </div>
+            </div>
+
+            <!-- 3D Spatial Interactive Hint -->
+            <div class="spatial-guide-pill">
+              <span class="guide-flare"></span>
+              <span>Spatial Perspective // Hover &amp; Press Elements for Depth</span>
             </div>
 
           </div>
@@ -216,96 +252,97 @@
     </section>
 
     <!-- ====================================================================
-         ABOUT SECTION: 3D Layered Cards & Narrative
+         02. ABOUT & PHILOSOPHY: Layered Glass & Hologram Quote
          ==================================================================== -->
     <section id="about" class="about-section">
       <div class="container">
         
-        <div class="section-title-wrap">
-          <span class="section-tag-3d">02 // IDENTITY &amp; PHILOSOPHY</span>
-          <h2 class="section-heading">Driven by Curiosity, <span class="text-gradient-cyan">Powered by Code</span></h2>
-          <p class="section-lead">A look into my engineering background, core motivations, and dedication to craftsmanship.</p>
+        <div class="section-lead-header">
+          <span class="section-tag-pill">02 // ARCHITECTURE &amp; MINDSET</span>
+          <h2 class="section-title-3d">Driven by Curiosity, <span class="gradient-cyan">Powered by Code</span></h2>
+          <p class="section-desc">Understanding software from first principles to construct practical, enduring solutions.</p>
         </div>
 
-        <div class="about-3d-grid">
+        <div class="about-spatial-grid">
           
-          <!-- Left Large Dimensional Card -->
-          <div class="about-card-primary card-3d-tilt">
-            <div class="card-glass-glow"></div>
+          <!-- Primary 3D Glass Narrative Card -->
+          <div class="glass-card-3d about-primary-card">
+            <div class="card-ambient-specular"></div>
             
-            <div class="card-plane-content">
-              <div class="card-header-badge">
-                <span class="badge-icon">💎</span>
-                <span>The Engineering Journey</span>
+            <div class="card-z-content">
+              <div class="category-chip">
+                <span class="chip-dot"></span>
+                <span>The Engineering Philosophy</span>
               </div>
 
-              <h3 class="card-lead-title">Building Logical Foundations to Solve Real-World Challenges</h3>
+              <h3 class="card-headline-lg">Transforming Complex Concepts Into Clean, Scalable Systems</h3>
               
-              <p class="card-para">
-                I am an aspiring software developer with an intrinsic curiosity for programming, computer science, and technology. My journey started by building a firm grasp of <strong>C++ and Python</strong>, which grounded me in structured logic, computational thinking, algorithmic design, and problem solving.
+              <p class="card-prose">
+                I am an aspiring software developer passionate about exploring new technologies, understanding how things work under the hood, and developing practical solutions to real-world problems. My journey began with <strong>C++ and Python</strong>, which instilled a deep appreciation for algorithmic efficiency, structured thinking, and memory mechanics.
               </p>
 
-              <p class="card-para">
-                I am not satisfied with just knowing *that* something works; I am passionate about dissecting <em>how</em> things work under the hood. From low-level memory mechanics to high-level backend architectures, I strive to design software that is reliable, clean, and scalable.
+              <p class="card-prose">
+                Rather than treating code as simple instructions, I am motivated to analyze underlying architectures, database states, and system communication protocols. I am currently channeling this curiosity into <strong>modern web development, backend technologies, and AI-assisted engineering</strong>.
               </p>
 
-              <p class="card-para">
-                Currently, I am expanding my boundaries into <strong>modern web development, backend architectures, and AI-assisted engineering</strong>. I love discovering new paradigms, asking questions, and converting abstract concepts into practical applications.
+              <p class="card-prose">
+                My career goal is to evolve into a versatile, high-impact software engineer, continually refine my technical abilities, and contribute to forward-looking, meaningful projects.
               </p>
 
-              <div class="quote-hologram-box">
-                <div class="quote-symbol">“</div>
-                <p class="quote-statement">
+              <!-- Hologram Quote Capsule -->
+              <div class="hologram-quote-capsule">
+                <div class="quote-mark">“</div>
+                <blockquote class="quote-phrase">
                   Curiosity, consistency, creativity, and a willingness to learn are essential for personal and professional growth.
-                </p>
-                <div class="quote-credit">
-                  <span class="credit-dash"></span>
-                  <span class="credit-author">Sanjana Chauhan</span>
+                </blockquote>
+                <div class="quote-signature">
+                  <span class="sig-line"></span>
+                  <span class="sig-author">Sanjana Chauhan</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Right: 4 Interactive 3D Pillars -->
-          <div class="about-pillars-stack">
+          <!-- Right: 4 Interactive 3D Pillars Stack -->
+          <div class="pillars-3d-stack">
             
-            <div class="pillar-box-3d card-3d-tilt pillar-curiosity">
-              <div class="pillar-icon-box">
-                <span class="p-icon">🔍</span>
+            <div class="glass-card-3d pillar-item pillar-curiosity">
+              <div class="pillar-symbol-box">
+                <span>🔍</span>
               </div>
-              <div class="pillar-info">
-                <h4>Inquisitive &amp; Analytical</h4>
-                <p>Asking deep questions, breaking down complex codebases, and exploring unfamiliar ideas every single day.</p>
+              <div class="pillar-text">
+                <h4>Inquisitive &amp; Curious</h4>
+                <p>Asking deep questions, investigating system internals, and embracing unfamiliar technical challenges.</p>
               </div>
             </div>
 
-            <div class="pillar-box-3d card-3d-tilt pillar-consistency">
-              <div class="pillar-icon-box">
-                <span class="p-icon">🎯</span>
+            <div class="glass-card-3d pillar-item pillar-consistency">
+              <div class="pillar-symbol-box">
+                <span>🎯</span>
               </div>
-              <div class="pillar-info">
+              <div class="pillar-text">
                 <h4>Disciplined Consistency</h4>
-                <p>Showing up daily to write code, refine problem-solving techniques, and systematically master fundamentals.</p>
+                <p>Committing to daily deliberate practice, refining problem-solving intuition, and mastering fundamentals.</p>
               </div>
             </div>
 
-            <div class="pillar-box-3d card-3d-tilt pillar-creativity">
-              <div class="pillar-icon-box">
-                <span class="p-icon">✨</span>
+            <div class="glass-card-3d pillar-item pillar-creativity">
+              <div class="pillar-symbol-box">
+                <span>✨</span>
               </div>
-              <div class="pillar-info">
+              <div class="pillar-text">
                 <h4>Creative Problem Solver</h4>
-                <p>Blending algorithmic precision with imaginative design to create impactful, real-world solutions.</p>
+                <p>Synthesizing computational logic with creative intuition to design elegant, human-centric software solutions.</p>
               </div>
             </div>
 
-            <div class="pillar-box-3d card-3d-tilt pillar-learning">
-              <div class="pillar-icon-box">
-                <span class="p-icon">📚</span>
+            <div class="glass-card-3d pillar-item pillar-learning">
+              <div class="pillar-symbol-box">
+                <span>📚</span>
               </div>
-              <div class="pillar-info">
-                <h4>Continuous Knowledge Seeker</h4>
-                <p>An avid reader of books who synthesizes cross-domain concepts to enrich software design perspectives.</p>
+              <div class="pillar-text">
+                <h4>Lifelong Knowledge Seeker</h4>
+                <p>An avid reader of books who connects cross-disciplinary insights to expand perspectives on software craft.</p>
               </div>
             </div>
 
@@ -317,115 +354,255 @@
     </section>
 
     <!-- ====================================================================
-         TECH DECK: 3D Competencies Matrix
+         03. SIGNATURE FEATURE: INFINITE 3D GALLERY (Vadim Carazan Concept)
+             Tunnel-like spatial composition with deep Z-axis cards & hover isolation
+         ==================================================================== -->
+    <section id="gallery3d" class="gallery-universe-section">
+      <div class="container">
+        
+        <div class="section-lead-header">
+          <span class="section-tag-pill">03 // SIGNATURE FEATURE &bull; 3D PROJECT UNIVERSE</span>
+          <h2 class="section-title-3d">Infinite <span class="gradient-cinematic">3D Spatial Gallery</span></h2>
+          <p class="section-desc">Experience projects arrayed across a deep perspective tunnel. Hover any card to draw it into focus.</p>
+        </div>
+
+        <!-- 3D Spatial Gallery Stage (Perspective Tunnel) -->
+        <div class="gallery-tunnel-stage">
+          <div class="tunnel-depth-plane">
+            
+            <!-- 3D Tunnel Horizon Grid -->
+            <div class="tunnel-grid-backdrop"></div>
+            
+            <!-- Tunnel Cards Matrix (Z-axis Depths & Inward Rotation) -->
+            <div class="tunnel-cards-composition">
+              
+              <!-- Card 1: Central Flagship (Front Center, translateZ: 80px) -->
+              <div class="tunnel-card tc-flagship" tabindex="0">
+                <div class="tc-glass-surface">
+                  <div class="tc-header-row">
+                    <span class="tc-tag tag-primary">★ FLAGSHIP SYSTEM</span>
+                    <span class="tc-depth-code">Z-POS: +80PX</span>
+                  </div>
+                  <h3 class="tc-title">Centralized Website Monitoring System</h3>
+                  <p class="tc-abstract">
+                    Real-time uptime engine &amp; server latency monitor with instant alert dispatches. Engineered with <strong>Lovable</strong> for accelerated modular design and <strong>Supabase</strong> for PostgreSQL cloud state persistence.
+                  </p>
+                  
+                  <div class="tc-specs-preview">
+                    <div class="spec-pill"><span class="spec-k">DB</span><span class="spec-v">Supabase</span></div>
+                    <div class="spec-pill"><span class="spec-k">UI</span><span class="spec-v">Lovable AI</span></div>
+                    <div class="spec-pill"><span class="spec-k">SYNC</span><span class="spec-v">Real-Time</span></div>
+                  </div>
+
+                  <div class="tc-action-row">
+                    <a href="#projects" class="tc-link">
+                      <span>Inspect Telemetry</span>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2: Angled Left Mid-Depth (translateZ: -120px, rotateY: 22deg) -->
+              <div class="tunnel-card tc-left-mid" tabindex="0">
+                <div class="tc-glass-surface">
+                  <div class="tc-header-row">
+                    <span class="tc-tag tag-amber">C++ &bull; ALGORITHMS</span>
+                    <span class="tc-depth-code">Z-POS: -120PX</span>
+                  </div>
+                  <h3 class="tc-title">Algorithmic Problem-Solving Suite</h3>
+                  <p class="tc-abstract">
+                    Deep exploration of data structures, computational time complexity optimization, pointer mechanics, and object-oriented design in modern C++.
+                  </p>
+                  <div class="tc-specs-preview">
+                    <div class="spec-pill"><span class="spec-k">LANG</span><span class="spec-v">C++</span></div>
+                    <div class="spec-pill"><span class="spec-k">FOCUS</span><span class="spec-v">Structures</span></div>
+                  </div>
+                  <div class="tc-action-row">
+                    <a href="#projects" class="tc-link"><span>View Details &rarr;</span></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3: Angled Right Mid-Depth (translateZ: -120px, rotateY: -22deg) -->
+              <div class="tunnel-card tc-right-mid" tabindex="0">
+                <div class="tc-glass-surface">
+                  <div class="tc-header-row">
+                    <span class="tc-tag tag-purple">PYTHON &bull; LOGIC</span>
+                    <span class="tc-depth-code">Z-POS: -120PX</span>
+                  </div>
+                  <h3 class="tc-title">Python Automation &amp; Scripting</h3>
+                  <p class="tc-abstract">
+                    Practical scripts and backend tools engineered to parse data streams, automate workflows, and develop algorithmic solutions.
+                  </p>
+                  <div class="tc-specs-preview">
+                    <div class="spec-pill"><span class="spec-k">LANG</span><span class="spec-v">Python</span></div>
+                    <div class="spec-pill"><span class="spec-k">CORE</span><span class="spec-v">Automation</span></div>
+                  </div>
+                  <div class="tc-action-row">
+                    <a href="#projects" class="tc-link"><span>View Details &rarr;</span></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4: Deep Left Background (translateZ: -320px, rotateY: 15deg) -->
+              <div class="tunnel-card tc-left-deep" tabindex="0">
+                <div class="tc-glass-surface">
+                  <div class="tc-header-row">
+                    <span class="tc-tag tag-cyan">WEB &bull; BACKEND</span>
+                    <span class="tc-depth-code">Z-POS: -320PX</span>
+                  </div>
+                  <h3 class="tc-title">Pure 3D Web Architectures</h3>
+                  <p class="tc-abstract">
+                    High-performance GPU-accelerated spatial layouts, CSS gimbals, and glassmorphism without external libraries.
+                  </p>
+                  <div class="tc-action-row">
+                    <a href="#projects" class="tc-link"><span>Inspect Code &rarr;</span></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 5: Deep Right Background (translateZ: -320px, rotateY: -15deg) -->
+              <div class="tunnel-card tc-right-deep" tabindex="0">
+                <div class="tc-glass-surface">
+                  <div class="tc-header-row">
+                    <span class="tc-tag tag-emerald">DATABASE &bull; CLOUD</span>
+                    <span class="tc-depth-code">Z-POS: -320PX</span>
+                  </div>
+                  <h3 class="tc-title">Cloud Schema &amp; PostgreSQL Sync</h3>
+                  <p class="tc-abstract">
+                    Structured relational data models, role-based security rules, and real-time event broadcasting via Supabase.
+                  </p>
+                  <div class="tc-action-row">
+                    <a href="#projects" class="tc-link"><span>Inspect Schema &rarr;</span></a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Gallery Navigation & Interaction Tip -->
+        <div class="gallery-legend-bar">
+          <span class="legend-indicator"></span>
+          <span>Hover on any card to isolate depth &bull; Sibling cards blur &amp; dim into spatial background</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         04. TECH DECK: 3D Competencies Matrix
          ==================================================================== -->
     <section id="skills" class="skills-section">
       <div class="container">
         
-        <div class="section-title-wrap">
-          <span class="section-tag-3d">03 // TECHNICAL ARSENAL</span>
-          <h2 class="section-heading">Core Skills &amp; <span class="text-gradient-purple">Competencies</span></h2>
-          <p class="section-lead">A balanced combination of programming foundations, web exploration, and modern cloud tools.</p>
+        <div class="section-lead-header">
+          <span class="section-tag-pill">04 // TECHNICAL TOOLKIT</span>
+          <h2 class="section-title-3d">Core Skills &amp; <span class="gradient-purple">Competencies</span></h2>
+          <p class="section-desc">A strong analytical foundation paired with modern web engineering and cloud databases.</p>
         </div>
 
         <div class="skills-deck-grid">
           
-          <!-- Skill Card 1: Core Programming -->
-          <div class="deck-card-3d card-3d-tilt deck-blue">
-            <div class="deck-glow-orb"></div>
-            <div class="deck-layer">
-              <div class="deck-icon-circle">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+          <!-- Skill Card 1: Core Languages -->
+          <div class="glass-card-3d deck-box deck-cyan">
+            <div class="deck-glow-corner"></div>
+            <div class="deck-content-layer">
+              <div class="deck-icon-badge">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
               </div>
-              <h3 class="deck-title">Core Languages</h3>
-              <p class="deck-desc">The algorithmic foundation for structured problem solving and computational efficiency.</p>
+              <h3 class="deck-name">Core Languages</h3>
+              <p class="deck-detail">The algorithmic bedrock for structured computational logic, memory discipline, and syntax mastery.</p>
               
-              <div class="deck-pill-cluster">
-                <span class="deck-tag">C++ (OOP &amp; Logic)</span>
-                <span class="deck-tag">Python (Scripting)</span>
-                <span class="deck-tag">Data Structures</span>
-                <span class="deck-tag">Algorithm Design</span>
-                <span class="deck-tag">Memory Logic</span>
+              <div class="deck-pill-group">
+                <span class="tech-pill">C++ (OOP &amp; Logic)</span>
+                <span class="tech-pill">Python (Scripting)</span>
+                <span class="tech-pill">Data Structures</span>
+                <span class="tech-pill">Algorithm Design</span>
+                <span class="tech-pill">Memory Concepts</span>
               </div>
 
-              <div class="deck-stat-bar">
-                <div class="stat-meta"><span>Foundation</span><span>Strong</span></div>
-                <div class="stat-track"><div class="stat-fill fill-cyan"></div></div>
+              <div class="deck-progress-wrap">
+                <div class="prog-meta"><span>Foundation</span><span>Strong</span></div>
+                <div class="prog-bar"><div class="prog-fill fill-cyan"></div></div>
               </div>
             </div>
           </div>
 
           <!-- Skill Card 2: Web & Backend -->
-          <div class="deck-card-3d card-3d-tilt deck-purple">
-            <div class="deck-glow-orb"></div>
-            <div class="deck-layer">
-              <div class="deck-icon-circle">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          <div class="glass-card-3d deck-box deck-purple">
+            <div class="deck-glow-corner"></div>
+            <div class="deck-content-layer">
+              <div class="deck-icon-badge">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
               </div>
-              <h3 class="deck-title">Web &amp; Backend</h3>
-              <p class="deck-desc">Crafting accessible, responsive web interfaces and exploring resilient server-side mechanics.</p>
+              <h3 class="deck-name">Web &amp; Backend</h3>
+              <p class="deck-detail">Architecting accessible semantic web interfaces and exploring scalable, resilient server mechanisms.</p>
               
-              <div class="deck-pill-cluster">
-                <span class="deck-tag">Semantic HTML5</span>
-                <span class="deck-tag">CSS3 3D &amp; Flex/Grid</span>
-                <span class="deck-tag">Backend Concepts</span>
-                <span class="deck-tag">API Integration</span>
-                <span class="deck-tag">Responsive UX</span>
+              <div class="deck-pill-group">
+                <span class="tech-pill">Semantic HTML5</span>
+                <span class="tech-pill">CSS3 3D &amp; Grid</span>
+                <span class="tech-pill">Backend Concepts</span>
+                <span class="tech-pill">REST APIs</span>
+                <span class="tech-pill">Responsive UX</span>
               </div>
 
-              <div class="deck-stat-bar">
-                <div class="stat-meta"><span>Web Arc</span><span>Active Exploration</span></div>
-                <div class="stat-track"><div class="stat-fill fill-purple"></div></div>
+              <div class="deck-progress-wrap">
+                <div class="prog-meta"><span>Web Architecture</span><span>Active Growth</span></div>
+                <div class="prog-bar"><div class="prog-fill fill-purple"></div></div>
               </div>
             </div>
           </div>
 
           <!-- Skill Card 3: Cloud & Databases -->
-          <div class="deck-card-3d card-3d-tilt deck-emerald">
-            <div class="deck-glow-orb"></div>
-            <div class="deck-layer">
-              <div class="deck-icon-circle">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+          <div class="glass-card-3d deck-box deck-emerald">
+            <div class="deck-glow-corner"></div>
+            <div class="deck-content-layer">
+              <div class="deck-icon-badge">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
               </div>
-              <h3 class="deck-title">Cloud &amp; Databases</h3>
-              <p class="deck-desc">Leveraging modern cloud databases, authentication services, and scalable schemas.</p>
+              <h3 class="deck-name">Cloud &amp; Databases</h3>
+              <p class="deck-detail">Leveraging modern PostgreSQL cloud platforms, schema design, and live state synchronization.</p>
               
-              <div class="deck-pill-cluster">
-                <span class="deck-tag">Supabase (PostgreSQL)</span>
-                <span class="deck-tag">Lovable Platform</span>
-                <span class="deck-tag">Database Modeling</span>
-                <span class="deck-tag">Real-Time Sync</span>
-                <span class="deck-tag">State Persistence</span>
+              <div class="deck-pill-group">
+                <span class="tech-pill">Supabase (PostgreSQL)</span>
+                <span class="tech-pill">Lovable App Builder</span>
+                <span class="tech-pill">Relational Schemas</span>
+                <span class="tech-pill">Real-Time Sync</span>
+                <span class="tech-pill">Auth Workflows</span>
               </div>
 
-              <div class="deck-stat-bar">
-                <div class="stat-meta"><span>Platform Tools</span><span>Proficient</span></div>
-                <div class="stat-track"><div class="stat-fill fill-emerald"></div></div>
+              <div class="deck-progress-wrap">
+                <div class="prog-meta"><span>Platform Tools</span><span>Proficient</span></div>
+                <div class="prog-bar"><div class="prog-fill fill-emerald"></div></div>
               </div>
             </div>
           </div>
 
           <!-- Skill Card 4: AI Augmentation -->
-          <div class="deck-card-3d card-3d-tilt deck-amber">
-            <div class="deck-glow-orb"></div>
-            <div class="deck-layer">
-              <div class="deck-icon-circle">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <div class="glass-card-3d deck-box deck-amber">
+            <div class="deck-glow-corner"></div>
+            <div class="deck-content-layer">
+              <div class="deck-icon-badge">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
               </div>
-              <h3 class="deck-title">AI Tech &amp; Engineering</h3>
-              <p class="deck-desc">Harnessing intelligent AI-assisted development tools to speed up prototyping and verify code quality.</p>
+              <h3 class="deck-name">AI Tech &amp; Workflow</h3>
+              <p class="deck-detail">Harnessing intelligent AI tools to accelerate iterative prototyping, code review, and continuous learning.</p>
               
-              <div class="deck-pill-cluster">
-                <span class="deck-tag">AI-Assisted Dev</span>
-                <span class="deck-tag">Rapid Prototyping</span>
-                <span class="deck-tag">Git / Versioning</span>
-                <span class="deck-tag">Code Review Mindset</span>
-                <span class="deck-tag">Continuous Delivery</span>
+              <div class="deck-pill-group">
+                <span class="tech-pill">AI-Assisted Dev</span>
+                <span class="tech-pill">Rapid Prototyping</span>
+                <span class="tech-pill">Git / Versioning</span>
+                <span class="tech-pill">Clean Code Philosophy</span>
+                <span class="tech-pill">Debugging Mindset</span>
               </div>
 
-              <div class="deck-stat-bar">
-                <div class="stat-meta"><span>AI Tooling</span><span>Accelerating</span></div>
-                <div class="stat-track"><div class="stat-fill fill-amber"></div></div>
+              <div class="deck-progress-wrap">
+                <div class="prog-meta"><span>AI Tooling</span><span>Accelerating</span></div>
+                <div class="prog-bar"><div class="prog-fill fill-amber"></div></div>
               </div>
             </div>
           </div>
@@ -436,138 +613,96 @@
     </section>
 
     <!-- ====================================================================
-         PROJECTS SECTION: 3D Isometric Interactive Showcases
+         05. DETAILED SYSTEMS SHOWCASE: Isometric Star Terminal
          ==================================================================== -->
-    <section id="projects" class="projects-section">
+    <section id="projects" class="projects-detailed-section">
       <div class="container">
         
-        <div class="section-title-wrap">
-          <span class="section-tag-3d">04 // INNOVATIVE WORK</span>
-          <h2 class="section-heading">Featured <span class="text-gradient-neon">3D Projects</span></h2>
-          <p class="section-lead">Transforming concepts into real-world software, systems, and robust prototypes.</p>
+        <div class="section-lead-header">
+          <span class="section-tag-pill">05 // LIVE IMPLEMENTATIONS</span>
+          <h2 class="section-title-3d">Featured <span class="gradient-cinematic">System Architectures</span></h2>
+          <p class="section-desc">Translating algorithmic rigor and web technologies into functional, real-world platforms.</p>
         </div>
 
-        <div class="projects-3d-container">
+        <div class="flagship-system-card glass-card-3d">
           
-          <!-- Star Project: Centralized Website Monitoring System -->
-          <div class="showcase-card-3d card-3d-tilt">
-            
-            <div class="showcase-terminal-column">
-              <div class="terminal-stage-3d">
+          <!-- Left: Isometric 3D Live Terminal Simulation -->
+          <div class="system-terminal-side">
+            <div class="isometric-terminal-stage">
+              <div class="terminal-shell-3d">
                 
-                <div class="isometric-terminal">
-                  <div class="term-titlebar">
-                    <span class="term-btn close"></span>
-                    <span class="term-btn minimize"></span>
-                    <span class="term-btn maximize"></span>
-                    <span class="term-label">monitor-daemon // telemetry://v1.0</span>
-                  </div>
-                  
-                  <div class="term-content">
-                    <p class="term-row"><span class="k-import">import</span> { createClient } <span class="k-import">from</span> <span class="k-val">'@supabase/supabase-js'</span>;</p>
-                    <p class="term-row"><span class="k-comment">// Centralized Website Monitoring Engine</span></p>
-                    <p class="term-row"><span class="k-fn">watchEndpoint</span>(<span class="k-val">"https://client-portal.app/healthz"</span>);</p>
-                    
-                    <div class="term-telemetry-box">
-                      <div class="tel-item">
-                        <span class="tel-tag">PING</span>
-                        <span class="tel-res res-good">200 OK &bull; 24ms</span>
-                      </div>
-                      <div class="tel-item">
-                        <span class="tel-tag">DB</span>
-                        <span class="tel-res res-good">SUPABASE SYNCED</span>
-                      </div>
-                      <div class="tel-item">
-                        <span class="tel-tag">STATUS</span>
-                        <span class="tel-res res-good">100% HEALTHY</span>
-                      </div>
+                <div class="shell-titlebar">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-green"></span>
+                  <span class="shell-tag">monitor-daemon // telemetry-stream:200_OK</span>
+                </div>
+
+                <div class="shell-console">
+                  <p class="code-line"><span class="c-kw">import</span> { createClient } <span class="c-kw">from</span> <span class="c-str">'@supabase/supabase-js'</span>;</p>
+                  <p class="code-line"><span class="c-cm">// Centralized Website Uptime &amp; Latency Engine</span></p>
+                  <p class="code-line"><span class="c-fn">watchEndpointHealth</span>(<span class="c-str">"https://portal.domain.io/healthz"</span>);</p>
+
+                  <div class="telemetry-hud-grid">
+                    <div class="hud-stat">
+                      <span class="hud-label">LATENCY</span>
+                      <span class="hud-val hud-good">24ms &bull; FAST</span>
                     </div>
-
-                    <p class="term-row ping-pulse">▲ Monitoring 8 endpoints across active clusters...</p>
+                    <div class="hud-stat">
+                      <span class="hud-label">SUPABASE</span>
+                      <span class="hud-val hud-good">CONNECTED</span>
+                    </div>
+                    <div class="hud-stat">
+                      <span class="hud-label">UPTIME</span>
+                      <span class="hud-val hud-good">99.98%</span>
+                    </div>
                   </div>
+
+                  <p class="code-line pulse-line">▲ Active monitoring loop: 8 endpoints across regions</p>
                 </div>
 
               </div>
             </div>
-
-            <div class="showcase-detail-column">
-              <div class="detail-badge-top">
-                <span class="sparkle">★</span> FLAGSHIP ACTIVE PROJECT
-              </div>
-
-              <h3 class="detail-title">Centralized Website Monitoring System</h3>
-              
-              <p class="detail-description">
-                A centralized digital monitoring architecture engineered to track live endpoint uptime, measure server response latency, and alert administrators in real time. Accelerated using <strong>Lovable</strong> for modern visual design and powered by <strong>Supabase</strong> for PostgreSQL cloud database persistence, authentication, and live state synchronization.
-              </p>
-
-              <div class="detail-feature-list">
-                <div class="feat-bullet">
-                  <span class="bullet-check">✔</span>
-                  <span>Automated multi-endpoint uptime and latency health checks</span>
-                </div>
-                <div class="feat-bullet">
-                  <span class="bullet-check">✔</span>
-                  <span>Persistent PostgreSQL schema backed by Supabase</span>
-                </div>
-                <div class="feat-bullet">
-                  <span class="bullet-check">✔</span>
-                  <span>Centralized real-time status telemetry dashboard</span>
-                </div>
-                <div class="feat-bullet">
-                  <span class="bullet-check">✔</span>
-                  <span>AI-assisted development with modular Lovable components</span>
-                </div>
-              </div>
-
-              <div class="detail-tag-cluster">
-                <span class="proj-tag tag-lovable">Lovable Platform</span>
-                <span class="proj-tag tag-supabase">Supabase PostgreSQL</span>
-                <span class="proj-tag tag-ai">AI-Assisted Dev</span>
-                <span class="proj-tag tag-web">Web Technologies</span>
-                <span class="proj-tag tag-sys">Real-Time Systems</span>
-              </div>
-            </div>
-
           </div>
 
-          <!-- Secondary Projects Grid -->
-          <div class="sub-projects-grid">
+          <!-- Right: System Specifications -->
+          <div class="system-specs-side">
+            <div class="flagship-badge">
+              <span>★</span> ACTIVE DEVELOPMENT &bull; PROTOTYPE
+            </div>
+
+            <h3 class="system-heading">Centralized Website Monitoring System</h3>
             
-            <div class="sub-card-3d card-3d-tilt">
-              <div class="sub-card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            <p class="system-narrative">
+              An innovative centralized web platform engineered to continuously track website uptime, monitor server response times, and record system telemetry in real time. Built utilizing <strong>Lovable</strong> for rapid, clean interface prototyping and <strong>Supabase</strong> for seamless PostgreSQL data persistence, authentication, and live state updates.
+            </p>
+
+            <div class="system-features-list">
+              <div class="feat-row">
+                <span class="feat-check">✓</span>
+                <span>Real-time endpoint uptime tracking and latency alert logging</span>
               </div>
-              <span class="sub-card-category">C++ &bull; Python Logic</span>
-              <h4 class="sub-card-title">Algorithmic Problem-Solving Suite</h4>
-              <p class="sub-card-text">
-                An extensive suite of computational logic implementations, algorithmic structures, and mathematical problem-solving exercises in C++ and Python emphasizing algorithmic efficiency and clean syntax.
-              </p>
-              <div class="detail-tag-cluster">
-                <span class="proj-tag">C++</span>
-                <span class="proj-tag">Python</span>
-                <span class="proj-tag">Data Structures</span>
-                <span class="proj-tag">OOP</span>
+              <div class="feat-row">
+                <span class="feat-check">✓</span>
+                <span>PostgreSQL data models with Supabase cloud backend</span>
+              </div>
+              <div class="feat-row">
+                <span class="feat-check">✓</span>
+                <span>AI-accelerated UI architecture via Lovable component system</span>
+              </div>
+              <div class="feat-row">
+                <span class="feat-check">✓</span>
+                <span>Centralized dashboard for multi-domain visibility</span>
               </div>
             </div>
 
-            <div class="sub-card-3d card-3d-tilt">
-              <div class="sub-card-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
-              </div>
-              <span class="sub-card-category">HTML5 &bull; CSS3 3D</span>
-              <h4 class="sub-card-title">Pure 3D Web Architectures</h4>
-              <p class="sub-card-text">
-                High-performance, GPU-accelerated web experiences crafted entirely with pure HTML5 and CSS3. Features hardware-accelerated transforms, multi-ring holograms, glassmorphism, and responsive layouts without JavaScript.
-              </p>
-              <div class="detail-tag-cluster">
-                <span class="proj-tag">HTML5</span>
-                <span class="proj-tag">CSS3 3D</span>
-                <span class="proj-tag">Glassmorphism</span>
-                <span class="proj-tag">Zero JS</span>
-              </div>
+            <div class="system-tech-tags">
+              <span class="tech-tag tag-lovable">Lovable Platform</span>
+              <span class="tech-tag tag-supabase">Supabase PostgreSQL</span>
+              <span class="tech-tag tag-ai">AI-Assisted Dev</span>
+              <span class="tech-tag tag-web">Web Dev</span>
+              <span class="tech-tag tag-sys">Real-Time Systems</span>
             </div>
-
           </div>
 
         </div>
@@ -576,48 +711,48 @@
     </section>
 
     <!-- ====================================================================
-         MINDSET & CORE VALUES: 3D Perspective Cubes
+         06. MINDSET & VALUES: 3D Spatial Knowledge Crystals
          ==================================================================== -->
     <section id="mindset" class="mindset-section">
       <div class="container">
         
-        <div class="section-title-wrap">
-          <span class="section-tag-3d">05 // BEYOND CODE</span>
-          <h2 class="section-heading">Curiosity, Books &amp; <span class="text-gradient-cyan">Core Mindset</span></h2>
-          <p class="section-lead">The principles that drive my continuous learning and personal development.</p>
+        <div class="section-lead-header">
+          <span class="section-tag-pill">06 // BEYOND THE TERMINAL</span>
+          <h2 class="section-title-3d">Curiosity, Books &amp; <span class="gradient-cyan">Mindset</span></h2>
+          <p class="section-desc">The human curiosity, discipline, and principles that drive continuous growth.</p>
         </div>
 
-        <div class="mindset-cards-grid">
+        <div class="mindset-spatial-grid">
           
-          <div class="mindset-card-3d card-3d-tilt card-book">
-            <div class="mindset-icon-wrap">📖</div>
-            <h4 class="mindset-title">Avid Book Reader</h4>
-            <p class="mindset-para">
-              Apart from technology, I love reading books, discovering unfamiliar ideas, and gaining knowledge about diverse subjects. Reading expands perspectives and fuels creative problem solving.
+          <div class="glass-card-3d mindset-crystal crystal-book">
+            <div class="crystal-symbol">📖</div>
+            <h4 class="crystal-title">Avid Book Reader</h4>
+            <p class="crystal-desc">
+              Apart from technology, I love reading books, discovering unfamiliar perspectives, and gaining knowledge about diverse subjects. Reading deepens analytical reasoning and sparks creative problem solving.
             </p>
           </div>
 
-          <div class="mindset-card-3d card-3d-tilt card-curious">
-            <div class="mindset-icon-wrap">🔍</div>
-            <h4 class="mindset-title">Relentless Curiosity</h4>
-            <p class="mindset-para">
-              I am naturally curious and enjoy asking questions, exploring unfamiliar concepts, and dissecting how intricate systems function from first principles.
+          <div class="glass-card-3d mindset-crystal crystal-curiosity">
+            <div class="crystal-symbol">🔍</div>
+            <h4 class="crystal-title">Relentless Curiosity</h4>
+            <p class="crystal-desc">
+              I am naturally curious and thrive on asking probing questions, exploring unfamiliar concepts, and dissecting how complex software systems operate from first principles.
             </p>
           </div>
 
-          <div class="mindset-card-3d card-3d-tilt card-growth">
-            <div class="mindset-icon-wrap">🌱</div>
-            <h4 class="mindset-title">Daily Incremental Growth</h4>
-            <p class="mindset-para">
-              I believe in learning something new every single day. Consistent small improvements compound exponentially into technical mastery and deep insight.
+          <div class="glass-card-3d mindset-crystal crystal-growth">
+            <div class="crystal-symbol">🌱</div>
+            <h4 class="crystal-title">Daily Micro-Improvements</h4>
+            <p class="crystal-desc">
+              I believe in learning something new every single day. Consistent small steps compound over time into technical mastery and deep intellectual agility.
             </p>
           </div>
 
-          <div class="mindset-card-3d card-3d-tilt card-vision">
-            <div class="mindset-icon-wrap">🚀</div>
-            <h4 class="mindset-title">Visionary Engineering</h4>
-            <p class="mindset-para">
-              My goal is to evolve into an exceptional software engineer, continually refine my craft, and contribute to innovative and meaningful projects that solve real problems.
+          <div class="glass-card-3d mindset-crystal crystal-vision">
+            <div class="crystal-symbol">🚀</div>
+            <h4 class="crystal-title">Purpose-Driven Engineering</h4>
+            <p class="crystal-desc">
+              My goal is to become an exceptional software engineer, continually elevate my technical capabilities, and contribute meaningfully to innovative, impactful projects.
             </p>
           </div>
 
@@ -627,93 +762,88 @@
     </section>
 
     <!-- ====================================================================
-         CONTACT SECTION: 3D Holographic Portal
+         07. CONTACT SECTION: 3D Holographic Transmission Chamber
          ==================================================================== -->
     <section id="contact" class="contact-section">
       <div class="container">
         
-        <div class="contact-portal-3d card-3d-tilt">
+        <div class="glass-card-3d contact-chamber-3d">
           
-          <div class="portal-info-side">
-            <span class="section-tag-3d">LET'S CONNECT</span>
-            <h2 class="portal-headline">Ready to Collaborate or <span class="text-gradient-neon">Discuss Ideas?</span></h2>
-            <p class="portal-text">
-              Whether you want to discuss software engineering, backend technologies, website monitoring, or book recommendations, my inbox is always open.
+          <!-- Left: Transmission Metadata -->
+          <div class="chamber-info-pane">
+            <span class="section-tag-pill">TRANSMISSION FREQUENCY</span>
+            <h2 class="chamber-headline">Ready to Collaborate or <span class="gradient-cinematic">Exchange Ideas?</span></h2>
+            <p class="chamber-subtext">
+              Whether you want to discuss software engineering, backend systems, website monitoring, or book recommendations, my transmission portal is always open.
             </p>
 
-            <div class="portal-meta-rows">
-              <div class="meta-row-3d">
-                <div class="meta-icon-box">
+            <div class="chamber-meta-stack">
+              <div class="meta-item-3d">
+                <div class="meta-icon-hex">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
                 </div>
-                <div>
-                  <div class="meta-label">Direct Communication</div>
-                  <div class="meta-val">sanjana.chauhan@example.com</div>
+                <div class="meta-text-wrap">
+                  <span class="meta-label">DIRECT INBOX</span>
+                  <span class="meta-val">sanjana.chauhan@example.com</span>
                 </div>
               </div>
 
-              <div class="meta-row-3d">
-                <div class="meta-icon-box">
+              <div class="meta-item-3d">
+                <div class="meta-icon-hex">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                 </div>
-                <div>
-                  <div class="meta-label">Location &amp; Work Model</div>
-                  <div class="meta-val">Open to Remote &amp; On-Site Roles</div>
+                <div class="meta-text-wrap">
+                  <span class="meta-label">AVAILABILITY</span>
+                  <span class="meta-val">Open to Remote &amp; On-Site Opportunities</span>
                 </div>
               </div>
 
-              <div class="meta-row-3d">
-                <div class="meta-icon-box">
+              <div class="meta-item-3d">
+                <div class="meta-icon-hex">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                 </div>
-                <div>
-                  <div class="meta-label">Focus Areas</div>
-                  <div class="meta-val">C++, Python, Web Dev, Supabase, AI</div>
+                <div class="meta-text-wrap">
+                  <span class="meta-label">SPECIALIZATIONS</span>
+                  <span class="meta-val">C++, Python, Web Dev, Supabase, AI</span>
                 </div>
               </div>
             </div>
 
-            <div class="portal-social-pills">
-              <a href="#contact" class="social-btn-3d">
-                <span>GitHub</span>
-              </a>
-              <a href="#contact" class="social-btn-3d">
-                <span>LinkedIn</span>
-              </a>
-              <a href="#contact" class="social-btn-3d">
-                <span>Resume / CV</span>
-              </a>
+            <div class="chamber-social-row">
+              <a href="#contact" class="social-token-3d"><span>GitHub</span></a>
+              <a href="#contact" class="social-token-3d"><span>LinkedIn</span></a>
+              <a href="#contact" class="social-token-3d"><span>Resume / CV</span></a>
             </div>
           </div>
 
-          <!-- Pure HTML/CSS 3D Tactile Form -->
-          <div class="portal-form-side">
-            <form class="portal-form" action="#" method="POST" onsubmit="return false;">
-              <h3 class="form-headline">Send a Transmission</h3>
+          <!-- Right: Pure HTML/CSS 3D Tactile Form -->
+          <div class="chamber-form-pane">
+            <form class="transmission-form" action="#" method="POST" onsubmit="return false;">
+              <h3 class="form-title-3d">Send a Transmission</h3>
 
-              <div class="input-field-3d">
-                <label for="c-name" class="field-label">Your Name</label>
-                <input type="text" id="c-name" name="name" class="field-control" placeholder="e.g. Alex Mercer" required>
+              <div class="form-group-3d">
+                <label for="c-name" class="field-caption">Your Name</label>
+                <input type="text" id="c-name" name="name" class="field-input-3d" placeholder="e.g. Alex Vance" required>
               </div>
 
-              <div class="input-field-3d">
-                <label for="c-email" class="field-label">Your Email</label>
-                <input type="email" id="c-email" name="email" class="field-control" placeholder="e.g. alex@enterprise.io" required>
+              <div class="form-group-3d">
+                <label for="c-email" class="field-caption">Your Email</label>
+                <input type="email" id="c-email" name="email" class="field-input-3d" placeholder="e.g. alex@aerospace.io" required>
               </div>
 
-              <div class="input-field-3d">
-                <label for="c-subject" class="field-label">Subject</label>
-                <input type="text" id="c-subject" name="subject" class="field-control" placeholder="Project Inquiry / Opportunity" required>
+              <div class="form-group-3d">
+                <label for="c-subject" class="field-caption">Subject</label>
+                <input type="text" id="c-subject" name="subject" class="field-input-3d" placeholder="Project Inquiry / Engineering Discussion" required>
               </div>
 
-              <div class="input-field-3d">
-                <label for="c-message" class="field-label">Message</label>
-                <textarea id="c-message" name="message" rows="4" class="field-control field-area" placeholder="Hi Sanjana, let's connect regarding..." required></textarea>
+              <div class="form-group-3d">
+                <label for="c-message" class="field-caption">Message</label>
+                <textarea id="c-message" name="message" rows="4" class="field-input-3d field-area-3d" placeholder="Hi Sanjana, I'd love to connect regarding..." required></textarea>
               </div>
 
-              <button type="submit" class="btn-neon-primary btn-block btn-3d">
-                <span class="btn-core">
-                  <span>Transmit Message</span>
+              <button type="submit" class="btn-3d-primary btn-block btn-tactile">
+                <span class="btn-face">
+                  <span>Transmit Transmission</span>
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
                 </span>
               </button>
@@ -726,30 +856,60 @@
     </section>
   </main>
 
-  <!-- Futuristic Footer -->
-  <footer class="footer-3d">
-    <div class="container footer-content">
+  <!-- ====================================================================
+       08. CREATIVE 3D 404 PORTAL (Pure CSS Modal Triggered via #error-404)
+       ==================================================================== -->
+  <aside id="error-404" class="spatial-404-portal" aria-labelledby="modal-404-title">
+    <div class="modal-404-backdrop"></div>
+    <div class="modal-404-card glass-card-3d">
+      <a href="#hero" class="modal-close-btn" aria-label="Close 404 Portal">&times;</a>
       
-      <div class="footer-brand-lockup">
-        <div class="logo-box-3d mini">
-          <div class="logo-face front">SC</div>
-          <div class="logo-face back">★</div>
+      <!-- 3D Extruded 404 Typography -->
+      <div class="extruded-404-wrap">
+        <div class="ext-num" data-num="4">4</div>
+        <div class="ext-orb-center">
+          <div class="orb-ring"></div>
         </div>
-        <span class="footer-author">Sanjana Chauhan</span>
+        <div class="ext-num" data-num="4">4</div>
+      </div>
+
+      <h3 id="modal-404-title" class="modal-404-heading">Spatial Coordinate Lost In The Void</h3>
+      <p class="modal-404-desc">The requested dimension does not exist in this sector of the 3D Universe. Recalibrate coordinates and return to main reality.</p>
+
+      <a href="#hero" class="btn-3d-primary btn-tactile">
+        <span class="btn-face">Return to Main Universe</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- ====================================================================
+       FUTURISTIC 3D FOOTER
+       ==================================================================== -->
+  <footer class="footer-spatial">
+    <div class="container footer-layout">
+      
+      <div class="footer-brand-column">
+        <div class="logo-cube-3d mini">
+          <div class="cube-face-logo front">SC</div>
+          <div class="cube-face-logo back">★</div>
+        </div>
+        <span class="footer-creator">Sanjana Chauhan</span>
         <p class="footer-mantra">Curiosity &bull; Consistency &bull; Creativity &bull; Continuous Learning</p>
       </div>
 
-      <div class="footer-nav-row">
-        <a href="#hero">Overview</a>
+      <div class="footer-nav-column">
+        <a href="#hero">Universe</a>
         <a href="#about">About</a>
+        <a href="#gallery3d">3D Gallery</a>
         <a href="#skills">Tech Deck</a>
-        <a href="#projects">Projects 3D</a>
+        <a href="#projects">Systems</a>
         <a href="#mindset">Mindset</a>
         <a href="#contact">Contact</a>
+        <a href="#error-404" class="link-404-preview">3D 404 Experience</a>
       </div>
 
-      <div class="footer-legal">
-        <p>&copy; 2026 Sanjana Chauhan &bull; Built 100% with pure HTML5 &amp; CSS3 &bull; Zero JavaScript.</p>
+      <div class="footer-bottom-row">
+        <p>&copy; 2026 Sanjana Chauhan &bull; Crafted 100% with pure HTML5 &amp; CSS3 &bull; Zero JavaScript &bull; Inspired by 3D Spatial Experiences.</p>
       </div>
 
     </div>
